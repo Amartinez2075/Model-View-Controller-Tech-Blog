@@ -22,7 +22,7 @@ Sure, here's the list with a checkbox at the end of each completed task:
 
 10. Make and complete Connection JS file. ✔️
 
-11. Start on the creation of routes. ❌
+11. Start on the creation of routes. ✔️
 
 12. Start on the creation of routes within an API folder. ❌
 
