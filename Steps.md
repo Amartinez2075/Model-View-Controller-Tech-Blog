@@ -1,45 +1,48 @@
 ## Instructions from past Ashara
 
-1. NPM install Express Handlebars Done
+Sure, here's the list with a checkbox at the end of each completed task:
 
-2. NPM install MYSQL12 Done 
+1. NPM install MYSQL12 ✔️
 
-3. NPM install Sequelize Done
+2. NPM install Sequelize ✔️
 
-4. NPM install dotenv Done
+3. NPM install dotenv ✔️
 
-5. NPM install bycrypt package Done 
+4. NPM install Express Handlebars ✔️
 
-6. NPM install Express Session Done
+5. NPM install bycrypt package ✔️
 
-7. NPM install Connect Session Sequelize Done
+6. NPM install Express Session ✔️
 
-8. Make and complete Connection JS file. Done 
+7. NPM install Connect Session Sequelize ✔️
 
-9. Make Schema.sql file and insert code for table. Done  
- 
-10. Go into terminal and manually make the table in MySQL. Done 
- 
-Added ALL FILES NEEDED
+8. Make Schema.sql file and insert code for table. ✔️
 
-11. Start on the creation of routes. Working -- Monday 
+9. Go into terminal and manually make the table in MySQL. ✔️
 
-12. Start on the creation of routes within an API folder --Monday
+10. Make and complete Connection JS file. ✔️
 
-13. Start on the Creation of code in Modules folder. --Monday
+11. Start on the creation of routes. ❌
 
-14. Start on the Creation of code in Public folder within the Javascript Folder. -- Tuesday
+12. Start on the creation of routes within an API folder. ❌
 
-15. Start on the Creation of code in the Utility Folder. --Tuesday
 
-16. Start on the Creation of code in Public folder within the Javascript Folder. --Wednesday 
+13. Start on the Creation of code in Modules folder. ❌
 
-17. Start on the Creation of code in Public folder within the Javascript Folder. --Wednesday 
 
-18. Start on the Creation of code inside of the Views Folder inside of the Layout Folder --Thursday
+14. Start on the Creation of code in Public folder within the Javascript Folder. ❌
 
-19. Start on the Creation of code inside of the Views Folder inside of the Partials Folder --Thursday 
 
-20. Start on the Creation of code the Views Folder. --Friday
+15. Start on the Creation of code in the Utility Folder. ❌
 
-20. CREATE ENV file, add comments to all files except the Schema.sql --Friday
+
+16. Start on the Creation of code inside of the Views Folder inside of the Layout Folder. ❌
+
+
+17. Start on the Creation of code inside of the Views Folder inside of the Partials Folder. ❌
+
+
+18. Start on the Creation of code in the Views Folder. ❌
+
+
+19. CREATE ENV file, add comments to all files except the Schema.sql. ❌
