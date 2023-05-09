@@ -1,4 +1,4 @@
-## Instructions form past Ashara
+## Instructions from past Ashara
 
 1. NPM install Express Handlebars Done
 
@@ -36,9 +36,10 @@ Added ALL FILES NEEDED
 
 17. Start on the Creation of code in Public folder within the Javascript Folder. --Wednesday 
 
-
 18. Start on the Creation of code inside of the Views Folder inside of the Layout Folder --Thursday
 
-19. Start on the Creation of code inside of the Views Folder inside of the Partials Folder --Friday 
+19. Start on the Creation of code inside of the Views Folder inside of the Partials Folder --Thursday 
+
+20. Start on the Creation of code the Views Folder. --Friday
 
 20. CREATE ENV file, add comments to all files except the Schema.sql --Friday
