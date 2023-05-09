@@ -18,4 +18,6 @@
  
 10. Go into terminal and manually make the table in MySQL. Done 
  
-11. 
+11. Start on the creation of routes. Working
+
+12. Start on the creation of routes within an API
