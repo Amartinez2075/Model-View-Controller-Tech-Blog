@@ -1,3 +1,5 @@
+## Instructions form past Ashara
+
 1. NPM install Express Handlebars Done
 
 2. NPM install MYSQL12 Done 
@@ -18,18 +20,25 @@
  
 10. Go into terminal and manually make the table in MySQL. Done 
  
-Note Added rest of files / Was wrong need to add handle bar files duh
+Added ALL FILES NEEDED
 
-11. Start on the creation of routes. Working
+11. Start on the creation of routes. Working -- Monday 
 
-12. Start on the creation of routes within an API folder 
+12. Start on the creation of routes within an API folder --Monday
 
-13. Start on the Creation of code in Modules folder. 
+13. Start on the Creation of code in Modules folder. --Monday
 
-14. Start on the Creation of code in Public folder within the Javascript Folder. 
+14. Start on the Creation of code in Public folder within the Javascript Folder. -- Tuesday
 
-15. Start on the Creation of code in the Utility Folder. 
+15. Start on the Creation of code in the Utility Folder. --Tuesday
 
-16. Start on the Creation of code inside of the Views folder within Server.js.
+16. Start on the Creation of code in Public folder within the Javascript Folder. --Wednesday 
 
-20. Start on the Creation of code in Public folder within the Javascript Folder. 
+17. Start on the Creation of code in Public folder within the Javascript Folder. --Wednesday 
+
+
+18. Start on the Creation of code inside of the Views Folder inside of the Layout Folder --Thursday
+
+19. Start on the Creation of code inside of the Views Folder inside of the Partials Folder --Friday 
+
+20. CREATE ENV file, add comments to all files except the Schema.sql --Friday
