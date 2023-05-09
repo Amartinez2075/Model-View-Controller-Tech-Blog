@@ -11,3 +11,11 @@
 6. NPM install Express Session Done
 
 7. NPM install Connect Session Sequelize Done
+
+8. Make and complete Connection JS file. Done 
+
+9. Make Schema.sql file and insert code for table. Done  
+ 
+10. Go into terminal and manually make the table in MySQL. Done 
+ 
+11. 
