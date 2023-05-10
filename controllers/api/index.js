@@ -1,6 +1,6 @@
 const router = require('express').Router();
 
-const userRoutes = require('controllers\api\user-routes.js');
+const accessRoutes = require('controllers\api\Access-routes.js');
 const postRoutes = require('controllers\api\post-routes.js');
 const commentRoutes = require('controllers\api\comment-routes.js');
 
