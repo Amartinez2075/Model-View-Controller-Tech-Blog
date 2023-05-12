@@ -30,10 +30,10 @@ Sure, here's the list with a checkbox at the end of each completed task:
 13. Start on the Creation of code in Modules folder. ✔️
 
 
-14. Start on the Creation of code in Public folder within the Javascript Folder. ❌
+14. Start on the Creation of code in Public folder within the Javascript Folder. ✔️
 
 
-15. Start on the Creation of code in the Utility Folder. ❌
+15. Start on the Creation of code in the Utility Folder. ✔️
 
 
 16. Start on the Creation of code inside of the Views Folder inside of the Layout Folder. ❌
