@@ -1,164 +1,157 @@
+/* Set box-sizing for all elements to border-box */
 * {
-    box-sizing: border-box;
-  }
-  
-  body, html {
-    height: 100%;
-    padding: 0;
-    margin: 0;
-    font-family: sans-serif;
-    color: #333;
-  }
-  
-  a {
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
-  }
-  
-  a:hover {
-    color: #3486eb;
-  }
-  
-  button {
-    border: 0;
-    padding: 1%;
-    font-weight: bold;
-    transition: background-color .1s;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-  
-  .post-list {
-    margin: 0;
-    padding: 0;
-  }
-  
-  textarea, input {
-    padding: .5%;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-  }
-  
-  textarea:focus, input:focus {
-    outline: none;
-    border: 1px solid #3486eb;
-  }
-  
-  textarea {
-    min-width: 40%;
-    min-height: 100px;
-  }
-  
-  form > div {
-    margin-bottom: 2%;
-  }
-  
-  form label {
-    display: block;
-  }
-  
-  .wrapper {
-    width: 100%;
-    min-height: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  header {
-    border-bottom: 1px solid #ccc;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 1%;
-  }
-  
-  main {
-    flex: 1;
-    padding: 2% 4%;
-  }
-  
-  .btn-no-style {
-    background: none;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-    text-decoration: none;
-    color: #c51717;
-    font-size: 100%;
-    font-weight: bold;
-    transition: color .1s;
-    margin-left: 16px;
-  }
-  
-  .btn-no-style:hover {
-    background: none;
-    color: #eb3434;
-  }
-  
-  .delete-post-btn {
-    background-color: #4714d4;
-  }
-  
-  .delete-post-btn:hover {
-    background-color: #4714d4;
-  }
-  
-  .post {
-    margin-bottom: 2%;
-    line-height: 150%;
-  }
-  
-  .post .title span {
-    font-style: italic;
-    font-size: 90%;
-    color: #7d7d7d;
-  }
-  
-  .edit-link {
-    display: block;
-    margin: -1.5% 0 2% 0;
-  }
-  
-  .comment-form {
-    margin-bottom: 5%;
-  }
-  
-  .comment {
-    padding: 1%;
-    margin-bottom: 1%;
-  }
-  
-  .comment:nth-child(odd) {
-    background-color: #d6d6d5;
-  }
-  
-  .comment .meta {
-    font-size: 90%;
-    margin-bottom: .5%;
-    opacity: .6;
-  }
-  
-  .edit-post-form {
-    margin-bottom: 5%;
-  }
-  
-  footer {
-    border-top: 1px solid #ccc;
-    display: flex;
-    justify-content: center;
-    padding: 1%;
-    font-size: 110%;
-  }
+  box-sizing: border-box;
+}
 
-  .card {
-      margin-bottom: 1em;
-      margin-top: 1em;
-  }
+/* Set height, padding, margin, font, and color for body and html */
+body, html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  color: #333;
+}
 
-  .rows{
-      display:flex;
-      flex-direction: column;
-  }
+/* Set text decoration, font-weight, and color for links */
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+/* Change link color on hover */
+a:hover {
+  color: #3486eb;
+}
+
+/* Set styles for buttons */
+button {
+  border: 0;
+  padding: 1%;
+  font-weight: bold;
+  transition: background-color .1s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Set styles for post list */
+.post-list {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set styles for textareas and inputs */
+textarea, input {
+  padding: .5%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Set styles for focused textareas and inputs */
+textarea:focus, input:focus {
+  outline: none;
+  border: 1px solid #3486eb;
+}
+
+/* Set min-width and min-height for textareas */
+textarea {
+  min-width: 40%;
+  min-height: 100px;
+}
+
+/* Set margin-bottom for form div */
+form > div {
+  margin-bottom: 2%;
+}
+
+/* Set display block for form label */
+form label {
+  display: block;
+}
+
+/* Set styles for wrapper */
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Set styles for header */
+header {
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1%;
+}
+
+/* Set flex-grow, padding, and font-size for main */
+main {
+  flex: 1;
+  padding: 2% 4%;
+}
+
+/* Set styles for button with no background or border */
+.btn-no-style {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: none;
+  color: #c51717;
+  font-size: 100%;
+  font-weight: bold;
+  transition: color .1s;
+  margin-left: 16px;
+}
+
+/* Change color of button on hover */
+.btn-no-style:hover {
+  background: none;
+  color: #eb3434;
+}
+
+/* Set styles for delete post button */
+.delete-post-btn {
+  background-color: #4714d4;
+}
+
+/* Change background color of delete post button on hover */
+.delete-post-btn:hover {
+  background-color: #4714d4;
+}
+
+/* Set styles for post */
+.post {
+  margin-bottom: 2%;
+  line-height: 150%;
+}
+
+/* Set styles for title of post */
+.post .title span {
+  font-style: italic;
+  font-size: 90%;
+  color: #7d7d7d;
+}
+
+/* Set display block, margin, and font-size for edit link */
+.edit-link {
+  display: block;
+  margin: -1.5% 0 2% 0;
+}
+
+/* Set margin-bottom for comment form */
+.comment-form {
+  margin-bottom: 5%;
+}
+
+/* Set padding and margin-bottom for comments */
+.comment {
+  padding: 1%;
+  margin-bottom: 1%;
+}
+
+/* Set
