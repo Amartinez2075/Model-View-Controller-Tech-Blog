@@ -1,18 +1,25 @@
+<!-- This section displays a form for creating a new blog post -->
 <section>
+    <!-- A link is provided to go back to the dashboard page -->
     <a href="/dashboard" class="is-pulled-right"> &larr; back to dashboard</a>
-  <h2 class="title">create new blog post</h2><hr>
-
-  <form class="new-post-form">
-    <div>
-      <label for="post-title">title:</label>
-      <input class="input" type="text" id="post-title" name="post-title" placeholder="insert blog title here"/>
-    </div>
-    <div>
-      <label for="post-content">content:</label>
-      <input class="textarea is-large" id="post-content" name="post-content" placeholder="insert blog content here"/>
-    </div>
-    <button type="submit" class="button is-primary is-pulled-right">create post</button>
-  </form>
+    <!-- A heading is displayed to indicate that the user is creating a new blog post -->
+    <h2 class="title">create new blog post</h2>
+    <hr>
+    <!-- The form to create a new blog post -->
+    <form class="new-post-form">
+        <!-- The input field to get the title of the blog post -->
+        <div>
+            <label for="post-title">title:</label>
+            <input class="input" type="text" id="post-title" name="post-title" placeholder="insert blog title here"/>
+        </div>
+        <!-- The input field to get the content of the blog post -->
+        <div>
+            <label for="post-content">content:</label>
+            <input class="textarea is-large" id="post-content" name="post-content" placeholder="insert blog content here"/>
+        </div>
+        <!-- A button to submit the form and create the new blog post -->
+        <button type="submit" class="button is-primary is-pulled-right">create post</button>
+    </form>
 </section>
-
+<!-- The JavaScript file add-post.js is linked to this page to handle form submission --> 
 <script src="/javascript/add-post.js"></script>
