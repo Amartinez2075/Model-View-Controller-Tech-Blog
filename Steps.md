@@ -45,4 +45,4 @@ Sure, here's the list with a checkbox at the end of each completed task:
 18. Start on the Creation of code in the Views Folder. ✔️
 
 
-19. CREATE ENV file, add comments to all files except the Schema.sql. ❌
+19. Add comments to all files except the Schema.sql. ✔️
