@@ -1,26 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta tags -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title -->
     <title>Tech Blog</title>
+
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
+    <!-- Header section -->
     <header id="navheader" class="text-white">
         <section></section>
+
+        <!-- If user is logged in, show these links -->
         {{#if loggedIn}}
             <a href="/">Home</a>
             <a href="/dashboard">Dashboard</a>
             <a href="/api/users/logout">Logout</a>
+
+        <!-- If user is not logged in, show these links -->
         {{else}}
             <a href="/">Home</a>
             <a href="/dashboard">Dashboard</a>
             <a href="/login">Login</a>
         {{/if}}  
     </header>
+
+    <!-- Main section -->
     <main>
         {{{body}}}
     </main>
