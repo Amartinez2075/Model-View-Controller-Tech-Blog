@@ -1,12 +1,11 @@
-const {
-    Model,
-    DataTypes
-} = require('sequelize');
+// Importing necessary packages
+const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
-
+// Defining the Comment model by extending the Model class from Sequelize
 class Comment extends Model {}
 
+// Initializing the Comment model with column definitions and model configurations
 Comment.init({
     id: {
         type: DataTypes.INTEGER,
@@ -25,7 +24,7 @@ Comment.init({
         type: DataTypes.INTEGER,
         allowNull: false,
         references: {
-            model: 'user',
+            model: 'user', // References the user model's id
             key: 'id'
         }
     },
@@ -33,7 +32,7 @@ Comment.init({
         type: DataTypes.INTEGER,
         allowNull: false,
         references: {
-            model: 'post',
+            model: 'post', // References the post model's id
             key: 'id'
         }
     }
@@ -44,5 +43,5 @@ Comment.init({
     modelName: 'comment'
 })
 
-
+// Exporting the Comment model
 module.exports = Comment;
