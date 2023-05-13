@@ -39,10 +39,10 @@ Sure, here's the list with a checkbox at the end of each completed task:
 16. Start on the Creation of code inside of the Views Folder inside of the Layout Folder. 
 
 
-17. Start on the Creation of code inside of the Views Folder inside of the Partials Folder. ❌
+17. Start on the Creation of code inside of the Views Folder inside of the Partials Folder. ✔️
 
 
-18. Start on the Creation of code in the Views Folder. ❌
+18. Start on the Creation of code in the Views Folder. ✔️
 
 
 19. CREATE ENV file, add comments to all files except the Schema.sql. ❌
