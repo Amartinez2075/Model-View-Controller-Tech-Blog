@@ -36,7 +36,7 @@ Sure, here's the list with a checkbox at the end of each completed task:
 15. Start on the Creation of code in the Utility Folder. ✔️
 
 
-16. Start on the Creation of code inside of the Views Folder inside of the Layout Folder. ❌
+16. Start on the Creation of code inside of the Views Folder inside of the Layout Folder. 
 
 
 17. Start on the Creation of code inside of the Views Folder inside of the Partials Folder. ❌
