@@ -1,23 +1,10 @@
 {
-  "dependencies": {
-    "-": "^0.0.1",
-    "bcrypt": "^5.1.0",
-    "connect-session-sequelize": "^7.1.6",
-    "dotenv": "^16.0.3",
-    "express-handlebars": "^7.0.7",
-    "express-session": "^1.17.3",
-    "g": "^2.0.1",
-    "mysql2": "^3.3.0",
-    "sequelize": "^6.31.1"
-  },
   "name": "model-view-controller-tech-blog",
   "version": "1.0.0",
-  "engines": {
-    "node": "16.x"
-  },
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node Server.js"
   },
   "repository": {
     "type": "git",
@@ -30,5 +17,18 @@
     "url": "https://github.com/Amartinez2075/Model-View-Controller-Tech-Blog/issues"
   },
   "homepage": "https://github.com/Amartinez2075/Model-View-Controller-Tech-Blog#readme",
-  "description": ""
+  "engines": {
+    "node": "16.x"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "connect-session-sequelize": "^7.1.6",
+    "dotenv": "^16.0.3",
+    "express-handlebars": "^7.0.7",
+    "express-session": "^1.17.3",
+    "g": "^2.0.1",
+    "mysql2": "^3.3.0",
+    "sequelize": "^6.31.1",
+    "-": "^0.0.1"
+  }
 }
