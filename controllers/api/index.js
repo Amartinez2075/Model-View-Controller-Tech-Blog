@@ -7,7 +7,7 @@ const postRoutes = require('./post-routes.js');
 const commentRoutes = require('./comment-routes.js');
 
 // Use the imported API route modules for the corresponding routes
-router.use('/users', userRoutes);
+router.use('/accessRoutes', accessRoutes);
 router.use('/posts', postRoutes);
 router.use('/comments', commentRoutes);
 
