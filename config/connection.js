@@ -1,24 +1,17 @@
-// Import the Sequelize library for database interactions
+// Packages needed for connection
 const Sequelize = require('sequelize');
-
-// Import the dotenv library for loading environment variables
 require('dotenv').config();
 
-// Declare a variable to store the Sequelize instance
 let sequelize;
 
-// Check if the JAWSDB_URL environment variable exists
 if (process.env.JAWSDB_URL) {
-  // Create a new Sequelize instance using the JAWSDB_URL connection string
+  // If JAWSDB_URL environment variable is present (indicating a remote database connection)
   sequelize = new Sequelize(process.env.JAWSDB_URL);
 } else {
-  // If the JAWSDB_URL environment variable does not exist, create a new Sequelize instance using the local database details
+  // If JAWSDB_URL environment variable is not present (indicating a local database connection)
   sequelize = new Sequelize(process.env.DB_NAME, process.env.DB_USER, process.env.DB_PW, {
     host: 'localhost',
     dialect: 'mysql',
     port: 3306
   });
 }
-
-// Export the Sequelize instance to make it available for use in other parts of the application
-module.exports = sequelize;
