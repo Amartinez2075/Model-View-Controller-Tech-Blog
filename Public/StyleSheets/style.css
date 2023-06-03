@@ -45,7 +45,7 @@ button {
 textarea, input {
   padding: .5%;
   border-radius: 5px;
-  border: 1px solid #ccc;
+  border: 1px solid #bb0808;
 }
 
 /* Set styles for focused textareas and inputs */
