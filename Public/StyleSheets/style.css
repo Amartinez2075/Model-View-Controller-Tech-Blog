@@ -9,7 +9,7 @@ body, html {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
-  color: #00b7ff;
+  color: #ff0800;
   background-color: black;
 }
 
@@ -22,7 +22,7 @@ a {
 
 /* Change link color on hover */
 a:hover {
-  color: #3486eb;
+  color: #ff0000;
 }
 
 /* Set styles for buttons */
@@ -45,7 +45,7 @@ button {
 textarea, input {
   padding: .5%;
   border-radius: 5px;
-  border: 1px solid #bb0808;
+  border: 1px solid #ff0000;
 }
 
 /* Set styles for focused textareas and inputs */
