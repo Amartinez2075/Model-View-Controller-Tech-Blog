@@ -10,6 +10,5 @@ const commentRoutes = require('./comment-routes.js');
 router.use('/accessRoutes', accessRoutes);
 router.use('/posts', postRoutes);
 router.use('/comments', commentRoutes);
-
 // Export the router object to make it available for use in other parts of the application
 module.exports = router;

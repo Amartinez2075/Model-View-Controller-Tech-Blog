@@ -8,8 +8,8 @@ async function loginFormHandler(event) {
 
   // Check if both email and password inputs are not empty
   if (email && password) {
-    // Send a POST request to the '/api/users/login' route with the email and password in the request body
-    const response = await fetch('/api/users/login', {
+    // Send a POST request to the '/api/accessRoutes/login' route with the email and password in the request body
+    const response = await fetch('/api/accessRoutes/login', {
       method: 'post', // Request method is POST
       body: JSON.stringify({
         email,
