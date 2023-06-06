@@ -23,12 +23,10 @@
       <!-- The author of the blog post -->
       <b>{{user.username}}</b> |
       <!-- Links to the author's social media profiles -->
-      <a href="https://twitter.com/{{user.twitter}}"><i class="fab fa-twitter"></i></a>
-      <a href="https://github.com/{{user.github}}"><i class="fab fa-github"></i></a>
       <!-- The date when the blog post was created -->
-      | {{format_date created_at}} |
+      | {{formatDate created_at}} |
       <!-- The number of comments on the blog post -->
-      <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
+      <a href="/post/{{id}}">{{comments.length}} {{formatPlural "comment" comments.length}}</a>
     </div>
   </div>
 </div>

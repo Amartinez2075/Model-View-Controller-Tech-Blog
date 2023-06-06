@@ -87,4 +87,9 @@ router.get('/new', (req, res) => {
 res.render('add-post', { loggedIn: true }) // Render add-post handlebars template and pass in loggedIn boolean
 })
 
+router.get('/create', (req, res) => {
+    res.render('create-post', { loggedIn: true })
+ }); // Render add-post handlebars template and pass in loggedIn boolean
+
+
 module.exports = router; // Export router object to make routes available to other parts of application

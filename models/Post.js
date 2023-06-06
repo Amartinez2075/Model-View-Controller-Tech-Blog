@@ -18,17 +18,12 @@ Post.init({
     title: {
         type: DataTypes.STRING,
         allowNull: false,
-        validate: {
-            len: [1]
-        }
     },
     // Define a "content" property as a string that cannot be null and must have a minimum length of 1 character
     content: {
         type: DataTypes.STRING,
         allowNull: false,
-        validate: {
-            len: [1]
-        }
+
     },
     // Define a "user_id" property as an integer that references the "id" column of the "user" model
     user_id: {
