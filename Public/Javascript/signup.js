@@ -10,7 +10,7 @@ async function signupFormHandler(event) {
   // Check that the required fields are not empty
   if (username && email && password) {
     // Send a POST request to the server with user data
-    const response = await fetch('/api/users', {
+    const response = await fetch('/api/accessRoutes', {
       method: 'post',
       body: JSON.stringify({
         username,
