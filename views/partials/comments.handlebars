@@ -1,20 +1,4 @@
-module.exports = {
-  // Takes a date string and formats it to MM/DD/YYYY format
-  formatDate: date => {
-    return `${new Date(date).getMonth() + 1}/${new Date(date).getDate()}/${new Date(date).getFullYear()}`;
-  },
-  
-  // Takes a word and an amount and returns the plural form of the word if amount is not equal to 1
-  formatPlural: (word, amount) => {
-    if (amount !== 1) {
-      return `${word}s`;
-    }
-    return word;
-  },
 
-  // Loops through an array of comments and generates HTML for each comment
-  generate_comments_html: function(comments) {
-    return `
       <div class="comments">
         {{#each comments}}
         <section class="comment">
