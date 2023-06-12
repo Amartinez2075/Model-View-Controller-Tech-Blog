@@ -20,7 +20,7 @@ async function signupFormHandler(event) {
       headers: { 'Content-Type': 'application/json' }
     });
 
-    // Check the response status
+    // Check the response status waka
     if (response.ok) {
       console.log('success'); // Log success message to console
       document.location.replace('/dashboard'); // Redirect user to dashboard
