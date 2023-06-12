@@ -16,12 +16,14 @@ THEN I am taken to the homepage
 WHEN I click on any other links in the navigation
 THEN I am prompted to either sign up or sign in
 WHEN I choose to sign up
+
 THEN I am prompted to create a username and password
 WHEN I click on the sign-up button
 THEN my user credentials are saved and I am logged into the site
 WHEN I revisit the site at a later time and choose to sign in
 THEN I am prompted to enter my username and password
 WHEN I am signed in to the site
+
 THEN I see navigation links for the homepage, the dashboard, and the option to log out
 WHEN I click on the homepage option in the navigation
 THEN I am taken to the homepage and presented with existing blog posts that include the post title and the date created
@@ -30,6 +32,7 @@ THEN I am presented with the post title, contents, post creator’s username, an
 WHEN I enter a comment and click on the submit button while signed in
 THEN the comment is saved and the post is updated to display the comment, the comment creator’s username, and the date created
 WHEN I click on the dashboard option in the navigation
+
 THEN I am taken to the dashboard and presented with any blog posts I have already created and the option to add a new blog post
 WHEN I click on the button to add a new blog post
 THEN I am prompted to enter both a title and contents for my blog post
@@ -44,7 +47,8 @@ THEN I am able to view posts and comments but I am prompted to log in again befo
 
 ## ScreenShot
 
-![WebPage](Public\Model View.png)
+[Model View](https://github.com/Amartinez2075/Model-View-Controller-Tech-Blog/assets/123604658/b9cfd584-a6b3-4a73-a5c5-d9795a7b9ab4)
+
 
 ## Deployment Link
 
