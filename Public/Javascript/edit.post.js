@@ -22,6 +22,7 @@ async function editFormHandler(event) {
           'Content-Type': 'application/json'
       }
   });
+  console.log(response);
   
   // If the response is OK, redirect the user to the dashboard
   if (response.ok) {
