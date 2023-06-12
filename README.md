@@ -7,7 +7,7 @@ I WANT a CMS-style blog site
 SO THAT I can publish articles, blog posts, and my thoughts and opinions
 
 ## Acceptance Criteria
-
+```
 GIVEN a CMS-style blog site
 WHEN I visit the site for the first time
 THEN I am presented with the homepage, which includes existing blog posts if any have been posted; navigation links for the homepage and the dashboard; and the option to log in
@@ -44,10 +44,11 @@ WHEN I click on the logout option in the navigation
 THEN I am signed out of the site
 WHEN I am idle on the site for more than a set time
 THEN I am able to view posts and comments but I am prompted to log in again before I can add, update, or delete posts
-
+```
 ## ScreenShot
 
-[Model View](https://github.com/Amartinez2075/Model-View-Controller-Tech-Blog/assets/123604658/b9cfd584-a6b3-4a73-a5c5-d9795a7b9ab4)
+
+![Model View](https://github.com/Amartinez2075/Model-View-Controller-Tech-Blog/assets/123604658/e11d0803-e54b-433b-9ff8-4f7f65855de7)
 
 
 ## Deployment Link
