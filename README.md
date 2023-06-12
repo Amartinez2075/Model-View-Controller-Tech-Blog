@@ -46,17 +46,16 @@ WHEN I am idle on the site for more than a set time
 THEN I am able to view posts and comments but I am prompted to log in again before I can add, update, or delete posts
 ```
 ## Technologies 
-1. 
-2. Javascript
-3. Node_Modules 
-4. Heroku 
-5. Bycrypt 
-6. Connect-session-sequilze 
-7. Dontev 
-8. Express 
-9. Express handlbars 
-10. Express-session 
-11. mysql-12
+1. Javascript
+2. Node_Modules 
+3. Heroku 
+4. Bycrypt 
+5. Connect-session-sequilze 
+6. Dontev 
+7. Express 
+8. Express handlbars 
+9. Express-session 
+10. mysql-12
 
 ## ScreenShot
 
